@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="event.ClockEventStatisticsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2022-12-18T23:14:28" hostname="5CD137G9R6" time="0.249">
+  <properties/>
+  <testcase name="clock event statistics changing time many event many increment time goes backwards()" classname="event.ClockEventStatisticsTest" time="0.141"/>
+  <testcase name="clock event statistic fixed time one event one increment()" classname="event.ClockEventStatisticsTest" time="0.001"/>
+  <testcase name="clock event statistic changing time one event few increment with in hour()" classname="event.ClockEventStatisticsTest" time="0.0"/>
+  <testcase name="clock event statistic fixed time one event many increments()" classname="event.ClockEventStatisticsTest" time="0.002"/>
+  <testcase name="clock event statistic fixed time no events()" classname="event.ClockEventStatisticsTest" time="0.001"/>
+  <testcase name="clock event statistic changing time one event one increment()" classname="event.ClockEventStatisticsTest" time="0.001"/>
+  <testcase name="clock event statistic changing time one event one increment hour passed()" classname="event.ClockEventStatisticsTest" time="0.0"/>
+  <testcase name="clock event statistic changing time one event stat for non existing()" classname="event.ClockEventStatisticsTest" time="0.0"/>
+  <testcase name="clock event statistic changing time many event many increments()" classname="event.ClockEventStatisticsTest" time="0.098"/>
+  <testcase name="clock event statistic changing time no events()" classname="event.ClockEventStatisticsTest" time="0.0"/>
+  <testcase name="clock event statistic fixed time one event stats for non existing()" classname="event.ClockEventStatisticsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
