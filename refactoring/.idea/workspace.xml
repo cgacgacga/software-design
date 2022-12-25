@@ -26,38 +26,8 @@
       <change beforePath="$PROJECT_DIR$/../3/src/test/java/ru/akirakozov/sd/refactoring/servlet/GetProductsServletTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3/src/test/java/ru/akirakozov/sd/refactoring/servlet/HtmlUtils.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../3/src/test/java/ru/akirakozov/sd/refactoring/servlet/QueryServletTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/DoublyLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Entry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/LRUCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/LRUCacheImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW1/Node.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/ContentConverter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/ContentPiece.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/counter/ContentCounter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/counter/ContentCounterFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/service/ContentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/service/ContentServiceFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW2/service/VkService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/dto/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/servlet/AddProductServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/servlet/GetProductsServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/servlet/QueryServlet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW3/util/ResponsePrinter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW1/LRUCacheTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW2/counter/ContentCounterTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW2/service/VkServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/servlet/AddProductServletTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/servlet/GetProductsServletTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/servlet/QueryServletTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HW3/servlet/tools/DataBaseTestTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/akirakozov/sd/refactoring/servlet/AddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/akirakozov/sd/refactoring/servlet/AddProductServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +36,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">

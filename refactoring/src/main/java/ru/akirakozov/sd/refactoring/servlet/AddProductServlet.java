@@ -8,9 +8,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-/**
- * @author akirakozov
- */
 public class AddProductServlet extends HttpServlet {
 
     @Override
