@@ -44,7 +44,7 @@ public class DataBaseTestTools {
         return executeQuery(script, columnNames);
     }
 
-    public static void insertIntoProduct(Map<String, Integer> products) {
+    public static void insertIntoProduct(Map<String, Long> products) {
         String values = products.entrySet().stream()
             .map(entry -> String.format("('%s', %d)", entry.getKey(), entry.getValue()))
             .collect(Collectors.joining(", "));
@@ -80,6 +80,10 @@ public class DataBaseTestTools {
                     }
                     queryResult.add(values);
                 }
+
+                resultSet.close();
+                statement.close();
+
                 return queryResult;
             }
         } catch (Exception e) {

@@ -21,10 +21,10 @@ public class GetProductsServletTest {
     private HttpServletResponse response;
     private PrintWriter writer;
 
-    private final Map<String, Integer> EXPECTED_PRODUCTS = Map.of(
-        "Jeans", 2000,
-        "T-shirt", 1000,
-        "Dress", 5000
+    private final Map<String, Long> EXPECTED_PRODUCTS = Map.of(
+        "Jeans", 2000L,
+        "T-shirt", 1000L,
+        "Dress", 5000L
     );
 
     @Before
@@ -45,7 +45,7 @@ public class GetProductsServletTest {
 
         for (var entry : EXPECTED_PRODUCTS.entrySet()) {
             String name = entry.getKey();
-            Integer price = entry.getValue();
+            Long price = entry.getValue();
 
             verify(writer, times(1))
                 .println(eq(name + "\t" + price + "</br>"));
