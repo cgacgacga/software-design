@@ -1,0 +1,40 @@
+###
+GET http://localhost:8080/api/v1/products
+Authorization: {{token_owner}}
+
+###
+GET http://localhost:8080/api/v1/products/1
+
+###
+GET http://localhost:8080/api/v1/products/owner_id/3
+
+###
+POST http://localhost:8080/api/v1/products
+Authorization: {{token_user}}
+Content-Type: application/json
+
+{
+  "title": "product_user_3",
+  "description": "",
+  "price": {
+    "amount": 100,
+    "currency": "RUB"
+  }
+}
+
+###
+PUT http://localhost:8080/api/v1/products/1
+Authorization: {{token_owner}}
+Content-Type: application/json
+
+{
+  "description": "description",
+  "price": {
+    "amount": 10000,
+    "currency": "RUB"
+  }
+}
+
+###
+DELETE http://localhost:8080/api/v1/products/4
+Authorization: {{token_owner}}
